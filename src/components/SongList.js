@@ -6,7 +6,7 @@ import Song from "./Song"
 const SongList = ({songs}) => {
 
     const chartSongs = songs.map((songData) => {
-        return <li><Song artist={["im:artist".label]}>{["im:name".label]}</Song></li>   
+        return <li><Song artist={songData["im:artist"].label} title={songData["im:name"].label}/></li>   
     })
 
 

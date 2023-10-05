@@ -1,9 +1,9 @@
 
 
-const Song = ({song}) => {
+const Song = ({artist, title}) => {
 
     return (
-        <li>{song}</li>
+        <li> {artist}: {title} </li>
     )
 }
 
